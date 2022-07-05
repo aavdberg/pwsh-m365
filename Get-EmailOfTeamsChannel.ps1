@@ -4,8 +4,6 @@
 #    Group.Read.All or Directory.Read.All to read all Groups
 #    Group.Read.All to read Channel info
 
-#Variables to configure
-
 [CmdletBinding()]
 param (
     [Parameter(Mandatory = $true, HelpMessage = "'tenant.onmicrosoft.com' your tenantID or tenant root domain")]
